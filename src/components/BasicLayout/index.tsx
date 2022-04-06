@@ -17,9 +17,11 @@ export default defineComponent({
             <el-aside class="aside" width="200px">
               <Aside />
             </el-aside>
+            {/* 插槽的方式 */}
             <el-main class="main">{ slots.default!() }</el-main>
             <el-aside class="aside" width="300px">
-              <CustomPanel />
+              {/* 可视化编辑 */}
+              <CustomPanel /> 
             </el-aside>
           </el-container>
         </el-container>

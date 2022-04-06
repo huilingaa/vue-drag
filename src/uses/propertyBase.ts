@@ -10,3 +10,4 @@ export function properBase(): { store: Store<AllStoreType>; widget: ComputedRef<
   const currentSnapshot = computed(() => store.getters.currentSnapshot as Widget[]);
   return { store, widget: activeWidget, currentSnapshot };
 }
+

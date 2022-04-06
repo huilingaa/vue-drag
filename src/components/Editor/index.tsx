@@ -76,9 +76,6 @@ export default defineComponent({
               { renderWidgets() }
               <Lines canvasRect={ store.state.editor.canvasRect } widgets={ widgets.value } />
             </div>
-            <div class="drag-height">
-              <span>拖动调节高度</span>
-            </div>
           </div>
         </div>
       );

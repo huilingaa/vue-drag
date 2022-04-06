@@ -1,19 +1,5 @@
-# vue-next-drag-demo
 
-## Project setup
-```
-npm install
-```
+<!-- tsx 就是 使用 typescript 书写 jsx。 -->
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<!-- 侧边栏拖到主页插槽的方法 -->
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
