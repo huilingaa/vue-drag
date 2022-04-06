@@ -2,7 +2,7 @@ import { App } from 'vue';
 import { ElRow, ElCol, ElCheckbox, ElRadio, ElRadioGroup, ElRadioButton, ElColorPicker, ElDropdown, ElDropdownMenu, ElDropdownItem, ElButton, ElButtonGroup, ElContainer, ElHeader, ElFooter, ElAside, ElMain, ElCard, ElSpace, ElTabs, ElTabPane, ElForm, ElFormItem, ElInput, ElInputNumber } from 'element-plus';
 import lang from 'element-plus/lib/locale/lang/zh-cn';
 import locale from 'element-plus/lib/locale';
-import 'dayjs/locale/zh-cn';
+// import 'dayjs/locale/zh-cn';
 
 locale.use(lang);
 

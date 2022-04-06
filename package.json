@@ -29,7 +29,7 @@
     "babel-plugin-component": "^1.1.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "typescript": "~3.9.3",
+    "typescript": "4.3.5",
     "vue-cli-plugin-element-plus": "0.0.9"
   },
   "homepage": "https://lycHub.github.io/vue-next-drag"

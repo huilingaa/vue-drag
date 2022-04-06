@@ -2,7 +2,7 @@ import {AllStoreType, useStore} from "../store";
 import {computed} from "vue";
 import {Store} from "vuex";
 import {Widget} from "../store/types";
-import {ComputedRef} from "@vue/reactivity";
+import {ComputedRef} from 'vue';
 
 export function properBase(): { store: Store<AllStoreType>; widget: ComputedRef<Widget | undefined>; currentSnapshot: ComputedRef<Widget[]> } {
   const store = useStore();
